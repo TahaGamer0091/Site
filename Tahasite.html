@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TahaGamer - صفحه اصلی</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+font-family: 'Vazirmatn', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #1a1a2e; /* Dark blue/purple */
+color: #e0e0e0; /* Light gray */
+text-align: center;
+overflow-x: hidden;
+line-height: 1.6;
+}
+header {
+background-color: #0f3460; /* Slightly lighter blue */
+padding: 20px 0;
+border-bottom: 2px solid #e94560; /* Neon pink */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+header h1 {
+margin: 0;
+font-size: 2.8em;
+color: #e94560; /* Neon pink */
+text-shadow: 0 0 10px #e94560, 0 0 20px #e94560;
+letter-spacing: 2px;
+font-weight: bold;
+}
+nav {
+background-color: #16213e; /* Darker blue */
+padding: 10px 0;
+border-bottom: 1px solid #533483; /* Purple */
+}
+nav a {
+color: #bae8e8; /* Light cyan */
+text-decoration: none;
+margin: 0 15px;
+font-size: 1.1em;
+padding: 5px 10px;
+border-radius: 5px;
+transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+background-color: #e94560; /* Neon pink */
+color: #1a1a2e;
+text-shadow: none;
+}
+.container {
+max-width: 900px;
+margin: 20px auto;
+padding: 20px;
+background-color: #16213e; /* Darker blue */
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+min-height: 400px; /* Ensure scrollability */
+}
+h2 {
+color: #bae8e8; /* Light cyan */
+font-size: 2em;
+border-bottom: 2px solid #533483; /* Purple */
+padding-bottom: 10px;
+margin-bottom: 20px;
+display: inline-block;
+}
+section {
+margin-bottom: 40px;
+text-align: right; /* Align text to right for RTL */
+}
+section p, section ul {
+text-align: right;
+padding-right: 20px;
+}
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 15px;
+padding: 20px;
+background-color: #0f3460; /* Slightly lighter blue */
+border-radius: 8px;
+}
+.gallery img {
+width: 100%;
+height: 150px;
+object-fit: cover;
+border-radius: 8px;
+border: 2px solid #e94560; /* Neon pink */
+box-shadow: 0 0 10px rgba(233, 69, 96, 0.6);
+transition: transform 0.3s ease-in-out;
+}
+.gallery img:hover {
+transform: scale(1.05);
+box-shadow: 0 0 20px rgba(233, 69, 96, 0.8);
+}
+.button {
+display: inline-block;
+background-color: #e94560; /* Neon pink */
+color: #1a1a2e;
+padding: 12px 25px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+font-size: 1.1em;
+margin-top: 20px;
+transition: background-color 0.3s, transform 0.3s;
+border: none;
+cursor: pointer;
+}
+.button:hover {
+background-color: #fc728d; /* Lighter neon pink */
+transform: translateY(-2px);
+}
+footer {
+background-color: #0f3460;
+color: #e0e0e0;
+padding: 15px 0;
+margin-top: 40px;
+border-top: 2px solid #e94560;
+box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+</style>
+</head>
+<body>
+<header>
+<h1>TahaGamer</h1>
+</header>
+<nav>
+<a href="#home">خانه</a>
+<a href="#about">درباره من</a>
+<a href="#gallery">گالری</a>
+<a href="#skins">دانلود اسکین</a>
+</nav>
+
+<div class="container">
+<section id="home">
+<h2>به TahaGamer خوش آمدید!</h2>
+<p>اینجا محلی برای به اشتراک گذاشتن تجربیات من در دنیای ماینکرافت و فراتر از آن است. از آموزش‌ها، گیم‌پلی‌ها و چالش‌ها لذت ببرید.</p>
+<p>می‌تونید ویدئوهای من رو در کانال آپاراتم دنبال کنید:</p>
+<a href="https://www.aparat.com/TahaRip00" target="_blank" class="button">کانال آپارات TahaRip00</a>
+</section>
+
+<section id="about">
+<h2>درباره من</h2>
+<p>سلام، من طاها هستم، یک گیمر و خالق محتوا که عاشق ماینکرافت هستم. هدف من ایجاد یک جامعه سرگرم‌کننده و مفید برای همه دوستداران بازی است. اگه سوالی دارید یا دوست دارید درباره بازی صحبت کنید، حتما با من در ارتباط باشید!</p>
+</section>
+
+<section id="gallery">
+<h2>گالری ماینکرافت</h2>
+<div class="gallery">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img1.png" alt="تصویر ماینکرافت ۱">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img2.png" alt="تصویر ماینکرافت ۲">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img3.png" alt="تصویر ماینکرافت ۳">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img4.png" alt="تصویر ماینکرافت ۴">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img5.png" alt="تصویر ماینکرافت ۵">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img6.png" alt="تصویر ماینکرافت ۶ (جدید)">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img7.png" alt="تصویر ماینکرافت ۷ (جدید)">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img8.png" alt="تصویر ماینکرافت ۸ (جدید)">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img9.png" alt="تصویر ماینکرافت ۹ (جدید)">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img10.png" alt="تصویر ماینکرافت ۱۰ (جدید)">
+<img src="https://your-tahagamer-site.com/assets/gallery/mc_img11.png" alt="تصویر ماینکرافت ۱۱ (جدید)">
+</div>
+</section>
+
+<section id="skins">
+<h2>دانلود اسکین ماینکرافت</h2>
+<p>با کلیک روی دکمه زیر، یک اسکین تصادفی ماینکرافت برای شما دانلود می‌شود.
+این اسکین‌ها برای استفاده در بازی ماینکرافت طراحی شده‌اند و می‌توانید با دانلود آن‌ها، ظاهر شخصیت خود را تغییر دهید.</p>
+<button id="downloadSkinBtn" class="button">دانلود اسکین تصادفی</button>
+</section>
+</div>
+
+<footer>
+<p>&copy; 2023 TahaGamer. تمامی حقوق محفوظ است.</p>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+const skinUrls = [
+'https://your-tahagamer-site.com/assets/skins/skin_creeper.png',
+'https://your-tahagamer-site.com/assets/skins/skin_steve_armor.png',
+'https://your-tahagamer-site.com/assets/skins/skin_ender_knight.png',
+'https://your-tahagamer-site.com/assets/skins/skin_ninja.png',
+'https://your-tahagamer-site.com/assets/skins/skin_astronaut.png',
+'https://your-tahagamer-site.com/assets/skins/skin_dragon_slayer.png'
+];
+
+const downloadSkinBtn = document.getElementById('downloadSkinBtn');
+
+downloadSkinBtn.addEventListener('click', () => {
+const randomIndex = Math.floor(Math.random() * skinUrls.length);
+const randomSkinUrl = skinUrls[randomIndex];
+
+// Create a temporary anchor element
+const link = document.createElement('a');
+link.href = randomSkinUrl;
+// Suggest a filename for the download
+link.download = `minecraft_skin_${randomIndex + 1}.png`;
+document.body.appendChild(link);
+link.click();
+document.body.removeChild(link);
+});
+});
+</script>
+</body>
+</html>
